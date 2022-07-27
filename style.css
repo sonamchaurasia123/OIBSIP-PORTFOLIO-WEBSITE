@@ -1,0 +1,408 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+    background: url('images/sonam_photo.png'),url('images/ply.jfif');
+    background-size: 25% 50%,cover;
+    background-position: right,center;
+    background-repeat: no-repeat,no-repeat;
+    margin-right: 40px;
+    border-radius: 0% 0%,25% 10%;
+    clip-path: polygon(20% 0%, 0 0, 0 46%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 100% 55%, 100% 1%, 80% 0%, 58% 0);
+    background-attachment: fixed;
+}
+.logo{
+    color:white;
+    font-size: 50px;
+    margin-left: 100px;
+    letter-spacing: 5px;
+   
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin:5px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.menu{
+    margin-right: 100px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo span{
+    color:rgb(5, 205, 31);
+}
+.menu a:hover{
+    background:rgb(5, 205, 31);
+    transition:4;
+}
+.intro{
+    color:rgb(35, 238, 20);
+    margin-left: 200px;
+
+}
+.intro h1{
+    font-size: 50px;
+}
+.intro p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.btn{
+    border:none;
+    outline:none;
+    background: rgb(242, 51, 8);
+    padding:15px 10px;
+    margin-top:20px;
+    width:auto ;
+    font-size: 15px;
+    transition: 5;
+}
+#welcome{
+    color:rgb(21, 21, 19);
+    font-size: 70px;
+    margin-bottom: 10px;
+    background-color: rgb(242, 51, 8);
+    transition: 5;
+    border:1px;
+    width:300px;
+    text-align: center;
+    margin-top: 100px;
+}
+#welcome:hover{
+    transition:4;
+    background-color: rgb(246, 239, 239);
+}
+.btn:hover{
+    transition:4;
+    background-color: rgb(246, 239, 239)
+}
+.about{
+    padding:20px 10px;
+    margin-top: 100px;
+    background-image:url('images/sky\ blue.jpg');
+    background-size: cover;
+}
+.info{
+    font-weight: bold;
+    text-align: center;
+}
+
+#about{
+    font-size: 40px;
+    margin-bottom:10px;
+    
+}
+#info{
+    font-size: 25px;
+    color: rgb(253, 236, 43);
+    margin-bottom:20px;
+
+}
+.about-row{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.a-left{
+    flex-basis: 50%;
+}
+.a-left img{
+    width:60%;
+    border-radius: 50% 20% / 10% 40%;
+    /* height: 100px; */
+    padding:50px;
+    margin-left:100px;
+}
+.a-right{
+    flex-basis:50%;
+    margin-bottom: 200px;
+
+}
+#head{
+    font-size:20px;
+    font-weight:bold;
+    /* margin-right:200px; */
+}
+.description{
+    font-size:20px;
+    /* margin-right:200px; */
+    padding:50px;
+    text-align: center;
+}
+#skill{
+    padding: 100px 50px;
+    margin-top: 100px;
+    background: url('images/yellow.jfif');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.skills-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(229, 232, 236);
+    padding: 70px;
+}
+.skills-left{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.skills-left p{
+    font-size: 20px;
+}
+.skills-right{
+    flex-basis: 50%;
+}
+progress{
+    width:60%;
+}
+.progress-div{
+    width:70%;
+    margin: auto;
+}
+.progress-div p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: end;
+    
+
+}
+#service{
+    padding:100px 50px;
+    margin-top: 100px ;
+    background:url('images/dull.jfif');
+    background-size: cover;
+}
+.service-row{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.service-left{
+    flex-basis: 25%;
+    box-shadow: 10px 10px 10px rgb(193, 243, 12);
+    padding: 20px 20px;
+    text-align: center;
+}
+.service-right{
+    flex-basis: 25%;
+    box-shadow: 10px 10px 10px rgb(193, 243, 12);
+    padding: 20px 20px;
+    text-align: center;
+}
+.service-left img{
+    width: 100%;
+    margin-top: 30px;
+}
+.service-left h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.service-right h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.service-right p{
+    font-size: 20px;
+    text-align: justify;
+}
+.service-left p{
+    font-size: 20px;
+    text-align: justify;
+}
+.service-left:hover{
+    background-color: red;
+    color: white;
+    transition: 4s;
+}
+.service-right:hover{
+    background-color: red;
+    color: white;
+    transition: 4s;
+}
+#contact{
+    padding:100px 50px;
+    margin-top: 100px ;
+    background: url('images/yel.jpg');
+    background-size: cover;
+
+}
+.contact-row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+}
+.contact-left{
+    flex-basis: 50%;
+}
+.contact-right{
+    flex-basis: 50%;
+    
+}
+.contact-right form{
+    text-align: center;
+}
+.contact-right form h2{
+    margin-bottom: 10px;
+}
+.contact-right form input{
+    width: 60%;
+    padding: 10px ;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-right form textarea{
+    width: 60%;
+    padding: 10px ;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-left ul li a{
+    color:white;
+    text-decoration: none;
+    margin:5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.contact-left ul li a:hover{
+    background-color: rgb(240, 240, 12);
+    color:rgb(0, 21, 255);
+
+}
+.btn a{
+    text-decoration: none;
+}
+.contact-left h2{
+    margin-top: 25px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+#footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background: red;
+    color: white;
+    font-size: 20px;
+}
+#footer img{
+    width:70px ;
+    height: 30px;
+
+}
+@media only screen and (max-width:770px){
+    header{
+        background:url('images/ply.jfif');
+        background-size: cover;
+    }
+    .menu a{
+        display: none;
+    }
+    .logo{
+        padding-left:10px;
+        margin-left:10px;
+    }
+    .intro{
+        margin-top:50px;
+        font-size: 20px;
+        margin-left:30px;
+    }
+    #welcome{
+        margin-top: 10px;
+        font-size: 30px;
+        width:50%;
+    }
+    .intro p{
+        font-size: 20px;
+
+    }
+    .intro h1{
+        font-size: 30px;
+        color: rgb(220, 227, 78);
+    }
+    .a-left{
+        flex-basis: 100%;
+    }
+    .a-left img{
+        width:60%;
+        border-radius: 50% 20% / 10% 40%;
+        /* height: 100px; */
+        padding:30px;
+        margin-left:100px;
+    }
+    .a-right{
+        flex-basis:100%;
+        margin-bottom: 50px;
+    
+    }
+    .skills-left{
+        flex-basis: 100%;
+    }
+
+    .skills-right{
+        flex-basis: 100%;
+    }
+    .progress-div{
+        
+        width: 100%;
+        margin: auto;
+        padding-top:50px;
+    }
+    .progress{
+        width:90%;
+    }
+    .progress-div p{
+        font-size:13px;
+        margin-bottom: 10px;
+        
+    }
+    .service-right {
+        margin-top: 50px;
+    }
+    .contact-left{
+        flex-basis: 100%;
+
+    }
+    .contact-left img{
+        width: 100%;
+        padding: 20px 20px;
+    }
+    .contact-left h2{
+        text-align: center;
+    }
+    .contact-left ul {
+        text-align: center;
+    }
+    .contact-right{
+        flex-basis: 150%;
+    }
+    #footer h2{
+        font-size: 20px;
+    }
+    #footer div img{
+        width: 10%;
+
+    }
+    
+
+    
+}
+
+
